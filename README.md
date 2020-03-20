@@ -6,16 +6,23 @@
 
 # DIY
 
-## Instructions without this notebook:
+## Instrucciones sin el notebook:
 
-- built an initial project using the `rasa init` function
+### Instalar:
 
-## Requirements
+- Instalando RASA: https://rasa.com/docs/rasa/user-guide/installation/
+- Spacy (y descargar los modelos en el idioma deseado): https://spacy.io/usage/models#download
+- Para los componentes, Pretrained models de HuggingFace: https://huggingface.co/transformers/pretrained_models.html
 
-This episode requires you to have Rasa installed on your machine:  
+
+### El básico:
+- Proyecto inicial con `rasa init` 
+
+## Otros requisitos...
+
+Rasa-X:  
 ```pip3 install rasa-x --extra-index-url https://pypi.rasa.com/simple```
 
-In addition to this you need to install additional dependency to run Rasa on Jupyter 
-notebooks:  
+Dependencias para usar Rasa en Jupyter notebooks:  
 ```pip install nest_asyncio```
 
